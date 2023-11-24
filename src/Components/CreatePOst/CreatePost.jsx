@@ -18,7 +18,11 @@ const CreatePost = () => {
 
     const reac = reactions.current.value;
 
-    const tg = tags.current.value.split(/(\s+)/);
+    const tg = tags.current.value.split(" ");
+    userid.current.value=""
+    postTitle.current.value=""
+    postBody.current.value=""
+    reactions.current.value=""
     addPost(uid,postit,posbo,reac,tg)
   };
   return (
