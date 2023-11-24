@@ -8,7 +8,7 @@ import PostLists from "./Components/POstLists/PostLists";
 import SideBar from "./Components/SideBar/SideBar";
 
 function App() {
-  const [selected, setSelected] = useState("createpost");
+  const [selected, setSelected] = useState("home");
   return (
     <div className="d-flex">
       <SideBar selected={selected} setSelected={setSelected}/>
