@@ -1,7 +1,6 @@
 import React from "react";
 
-const SideBar = ({selected,setSelected}) => {
-
+const SideBar = ({ selected, setSelected }) => {
   return (
     <div
       className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary navmain"
@@ -18,25 +17,40 @@ const SideBar = ({selected,setSelected}) => {
       </a>
       <hr />
       <ul className="nav nav-pills flex-column mb-auto">
-        <li className="nav-item" onClick={()=>{setSelected("home")}}>
-          <a href="#" className={`nav-link  text-dark ${selected==="home"&&"active"}`} aria-current="page">
+        <li
+          className="nav-item"
+          onClick={() => {
+            setSelected("home");
+          }}
+        >
+          <a
+            href="#"
+            className={`nav-link  text-dark ${selected === "home" && "active"}`}
+            aria-current="page"
+          >
             <svg className="bi pe-none me-2" width="16" height="16">
               <use xlinkHref="#home"></use>
             </svg>
             Home
           </a>
         </li>
-        <li onClick={()=>{setSelected("createpost")}}>
-          <a href="#"className={`nav-link  text-drak ${selected==="createpost"&&"active"}`}>
+        <li
+          onClick={() => {
+            setSelected("createpost");
+          }}
+        >
+          <a
+            href="#"
+            className={`nav-link  text-drak ${
+              selected === "createpost" && "active"
+            }`}
+          >
             <svg className="bi pe-none me-2" width="16" height="16">
               <use xlinkHref="#speedometer2"></use>
             </svg>
             Create Post
           </a>
         </li>
-  
-   
-    
       </ul>
       <hr />
       <div className="dropdown">
