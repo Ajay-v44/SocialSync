@@ -1,6 +1,6 @@
 import React from "react";
 
-const SideBar = () => {
+const SideBar = ({selected}) => {
   return (
     <div
       className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary navmain"
@@ -18,7 +18,7 @@ const SideBar = () => {
       <hr />
       <ul className="nav nav-pills flex-column mb-auto">
         <li className="nav-item">
-          <a href="#" className="nav-link active" aria-current="page">
+          <a href="#" className={`nav-link  text-dark ${selected==="home"&&"active"}`} aria-current="page">
             <svg className="bi pe-none me-2" width="16" height="16">
               <use xlinkHref="#home"></use>
             </svg>
@@ -26,37 +26,16 @@ const SideBar = () => {
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link link-body-emphasis">
+          <a href="#"className={`nav-link  text-drak ${selected==="createpost"&&"active"}`}>
             <svg class="bi pe-none me-2" width="16" height="16">
               <use xlink:href="#speedometer2"></use>
             </svg>
-            Dashboard
+            Create Post
           </a>
         </li>
-        <li>
-          <a href="#" class="nav-link link-body-emphasis">
-            <svg class="bi pe-none me-2" width="16" height="16">
-              <use xlink:href="#table"></use>
-            </svg>
-            Orders
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link link-body-emphasis">
-            <svg class="bi pe-none me-2" width="16" height="16">
-              <use xlink:href="#grid"></use>
-            </svg>
-            Products
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link link-body-emphasis">
-            <svg class="bi pe-none me-2" width="16" height="16">
-              <use xlink:href="#people-circle"></use>
-            </svg>
-            Customers
-          </a>
-        </li>
+  
+   
+    
       </ul>
       <hr />
       <div className="dropdown">
