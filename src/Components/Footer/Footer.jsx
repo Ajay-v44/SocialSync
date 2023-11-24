@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Footer.module.css";
 const Footer = () => {
   return (
-    <div class="container">
+    <div class={styles.navmain}>
       <footer class="py-5">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">

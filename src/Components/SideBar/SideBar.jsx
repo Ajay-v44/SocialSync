@@ -3,7 +3,7 @@ import React from "react";
 const SideBar = () => {
   return (
     <div
-      className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary"
+      className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary navmain"
       style={{ width: "280px" }}
     >
       <a
