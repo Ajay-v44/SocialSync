@@ -11,7 +11,7 @@ function App() {
   const [selected, setSelected] = useState("createpost");
   return (
     <div className="d-flex">
-      <SideBar selected={selected}/>
+      <SideBar selected={selected} setSelected={setSelected}/>
       <div className="d-block w-100">
         <NavBar />
         {selected === "home" ? <PostLists /> : <CreatePost />}
