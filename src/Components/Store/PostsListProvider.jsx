@@ -29,7 +29,7 @@ const DEFAULT_POST = [
     id: "1",
     title: "buy thakkali",
     body: "going to buy thakkali",
-    reaction: 0,
+    reaction: 10,
     userId: "user-9",
     tags: ["shoping", "thakkali"],
   },
