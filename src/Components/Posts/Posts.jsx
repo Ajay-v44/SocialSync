@@ -19,7 +19,7 @@ const Posts = ({ post }) => {
           <span className="badge text-bg-primary m-1 " key={tag}>{tag}</span>
         ))}
         <div className="alert alert-info reaction" role="alert">
-         This Post Has Been Reacted By: <b>{post.reaction}</b> People
+         This Post Has Been Reacted By: <b>{post.reactions}</b> People
         </div>
       </div>
     </div>
