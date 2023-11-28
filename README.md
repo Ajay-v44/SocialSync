@@ -1,8 +1,11 @@
-# React + Vite
+# SocialSync
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A webapplication for creating blogs.Developed using React,Bootstrap,Css<html.It have built using the latest react hooks like Use effect ,Context Api,etc...
 
-Currently, two official plugins are available:
+#Live At:https://socialsync1.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Images
+
+![Screenshot (165)](https://github.com/Ajay-v44/SocialSync/assets/115262085/3357993e-1736-42fe-91ba-e81c104c2775)
+![Screenshot (164)](https://github.com/Ajay-v44/SocialSync/assets/115262085/3555ff3e-0c8a-43f2-b27c-bf0edc5809e2)
+
